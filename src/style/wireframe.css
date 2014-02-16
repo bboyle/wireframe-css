@@ -1,0 +1,107 @@
+.lofi * {
+	box-shadow: none !important;
+	border-color: #333 !important;
+	border-width: 3px !important;
+	border-style: none; /* default, must be less specific than existing styles */
+	color: #111 !important;
+}
+
+
+body.lofi {
+	background: #eee;
+	color: #111;
+	font: 130%/1.3 "Comic Sans MS", serif;
+}
+.lofi,
+.lofi input,
+.lofi select,
+.lofi textarea,
+.lofi optgroup,
+.lofi option {
+	font-family: "Comic Sans MS", serif !important;
+}
+
+
+.lofi h1, .lofi h2, .lofi h3, .lofi h4, .lofi h5, .lofi h6 {
+	color: #111;
+	font-family: "Comic Sans MS" !important;
+}
+
+.lofi button,
+.lofi input,
+.lofi select,
+.lofi textarea,
+.lofi optgroup,
+.lofi option {
+	appearance: none;
+	-webkit-appearance: none; /* Turn off native browser rendering */
+}
+.lofi input,
+.lofi select,
+.lofi textarea {
+	border-style: solid;
+	border-radius: 7px !important;
+}
+.lofi fieldset {
+	border: 3px solid #111 !important;
+	padding: 1em;
+	margin: 0 0 0 -1em;
+}
+.lofi legend {
+	width: auto;
+	padding: .2em;
+}
+.lofi strong input[type="submit"] {
+	background: #aaa;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.lofi input[type="submit"] {
+	background: #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+
+.lofi table.striped {
+	border-bottom: 1px solid #ccc;
+}
+
+.lofi table caption {
+	color: #111;
+}
+
+.lofi table thead tr th,
+.lofi table thead tr td {
+	background: #bbb;
+}
+
+.lofi table tr td,
+.lofi table tr th {
+	background: #fff;
+}
+
+.lofi table tr.even td,
+.lofi table tr.even th {	
+	background: #ddd;
+}
+
+
+/* show hidden stuff */
+.lofi [hidden] {
+	display: block !important;
+	outline: 3px dashed #777;
+}
+.lofi [hidden] * {
+	color: #777 !important;
+	border-color: #777 !important;
+}
+
+
+/* drag and drop */
+.lofi [draggable]:hover {
+	outline: 3px dashed rgba( 0, 0, 0, .2 );
+}
+.lofi [draggable]:active {
+	outline: 3px dashed rgba( 0, 0, 0, .5 );
+}
