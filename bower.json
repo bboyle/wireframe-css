@@ -1,0 +1,25 @@
+{
+  "name": "Wireframe CSS",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bboyle/wireframe-css",
+  "authors": [
+    "Ben Boyle <benjamins.boyle@gmail.com>"
+  ],
+  "description": "A stylesheet for presenting web pages as low-fidelity 'wireframes'.",
+  "main": "src/style/wireframe.css",
+  "keywords": [
+    "wireframe",
+    "css",
+    "stylesheet",
+    "lofi",
+    "low-fidelity"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
