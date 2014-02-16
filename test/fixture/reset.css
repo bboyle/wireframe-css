@@ -1,0 +1,27 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #000;
+	line-height: 1.5;
+}
+
+h1, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin-left: 1.5em;
+}
+
+:link {
+	color: blue;
+}
+:visited {
+	color: purple;
+}
+:active, :hover {
+	color: red;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "wireframe-css",
+  "version": "0.2.0",
+  "description": "A stylesheet for presenting web pages as low-fidelity 'wireframes'.",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "phantomjs": "~1.9.7-1",
+    "grunt-phantomcss": "~0.2.1",
+    "grunt-contrib-jshint": "~0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bboyle/wireframe-css.git"
+  },
+  "author": {
+    "name": "Ben Boyle",
+    "email": "<benjamins.boyle@gmail.com>"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bboyle/wireframe-css/issues"
+  },
+  "homepage": "https://github.com/bboyle/wireframe-css"
+}
